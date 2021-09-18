@@ -5,12 +5,12 @@ export const textNodes = [
       "You arrive at Narita Airport and now have to get to Tokyo. How do you choose to do that?",
     options: [
       {
-        text: "Go to JR counter to buy a trainticket to Shinjuku",
+        text: "Go to JR counter to buy a train ticket to Shinjuku",
 
         nextText: "jrcounter"
       },
       {
-        text: "Go to the platform of the train to Shinjuku",
+        text: "Go to the platform for the train to Shinjuku",
         nextText: "traingate"
       }
     ]
@@ -142,7 +142,7 @@ export const textNodes = [
   {
     id: "gacha",
     text:
-      "You walk around for hours playing gacha machines. You win some figures you want, and many you donät really care for. Afterwards you decide to...",
+      "You walk around for hours playing gacha machines. You win some figures you want, and many you dont really care for. Afterwards you decide to...",
     options: [
       {
         text:
@@ -162,13 +162,13 @@ export const textNodes = [
   {
     id: "manga",
     text:
-      "You carefully enter one of the famous manga caf+es where you can order specialised dishes with the theme of your favorite book or show. You buy a special cup which one gets to keep as a souvenir.",
+      "You carefully enter one of the famous manga cafes where you can order specialised dishes with the theme of your favorite book or show. You buy a special cup which one gets to keep as a souvenir.",
 
     options: [
       {
         text:
           "Full after the meal, you slowly walk back to the station to explore more of the district",
-        nextText: "akibara"
+        nextText: "akihabara"
       },
       {
         text:
