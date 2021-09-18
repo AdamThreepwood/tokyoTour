@@ -1,5 +1,6 @@
 
-/* fonts */
+
+
 @font-face {
   font-family: 'Quicksand';
   src: url('/Quicksand-Light.woff2') format('woff2'),
@@ -47,6 +48,7 @@ button:active {
 button:hover {
   background: #9670aa;
   
+
 }
 
 #reset {
