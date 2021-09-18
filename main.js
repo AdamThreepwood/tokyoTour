@@ -1,5 +1,6 @@
 const textElement = document.getElementById('text')
 const choiceButtonsElement = document.getElementById('choice-buttons')
+const restart = document.getElementById('reset')
 
 let state = {}
 
@@ -13,9 +14,6 @@ import {textNodes} from "./variables.js";
 function showTextNode(textNodeIndex) {
   const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
   textElement.innerText = textNode.text
- 
-    textElement.style.display = "inline-block";
-   textElement.style.transition = "all 2s";
   while (choiceButtonsElement.firstChild) {
     choiceButtonsElement.removeChild(choiceButtonsElement.firstChild)
   }
@@ -42,4 +40,10 @@ function selectOption(option) {
   showTextNode(nextTextNodeId)
 }
 
+restart.addEventListener("click", () => {
+startGame();
+});
+
 startGame()
+
+
