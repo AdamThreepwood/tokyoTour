@@ -1,4 +1,6 @@
-/* fonts */
+
+
+
 @font-face {
   font-family: 'Quicksand';
   src: url('/Quicksand-Light.woff2') format('woff2'),
@@ -15,6 +17,7 @@ body, ul, h1, h2, h3, p, button, a, div{
   list-style-type: none;
   text-decoration: none;
   opacity: 0.9;
+  
 }
 body{
   background-image: linear-gradient(180deg, #9d6975, #6e495c);
@@ -45,6 +48,16 @@ button:active {
 button:hover {
   background: #9670aa;
   
+
+}
+
+#reset {
+  background: #77b300;
+  max-width: 300px;
+  margin: 100px auto 40px;
+}
+#reset:hover {
+    background: #99e600;
   
 }
 
